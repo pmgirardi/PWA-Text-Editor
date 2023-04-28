@@ -21,20 +21,20 @@ module.exports = () => {
 
     new HtmlWebpackPlugin({
       template: './index.html',
-      title: 'Text-Editor',
+      title: 'J.A.T.E.',
     }),
 
     new InjectManifest ({
-      swSrc: './src/sw-js',
-      swDest: 'service-worker.js'
+      swSrc: './src-sw.js',
+      swDest: 'src-sw.js',
     }),
     // Creates a manifest.json file.
     new WebpackPwaManifest({
       fingerprints: false,
       inject: true,
-      name: 'JATE',
-      short_name: 'JATE',
-      description: 'Editing notes!',
+      name: 'Just Another Text Editor',
+      short_name: 'J.A.T.E.',
+      description: 'Take Notes with JavaScript Syntax highlighting',
       background_color: '#225ca3',
       theme_color: '#225ca3',
       start_url: '/',
