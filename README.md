@@ -59,9 +59,10 @@ Run the following at the command line
 ```
 
 ## Links:
- [Heroku App](https://github.com/pmgirardi/PWA-Text-Editor)
- [Github repository](https://whispering-falls-80138.herokuapp.com/)
+- [Heroku App](https://github.com/pmgirardi/PWA-Text-Editor)
+
+- [Github repository](https://whispering-falls-80138.herokuapp.com/)
 
 ## Author:
-- Website - [Paige Girardi - Github Profile](https://github.com/pmgirardi)
+- Website - [Github Profile](https://github.com/pmgirardi)
 - LinkedIn - [Profile](https://www.linkedin.com/in/paige-girardi-441243192/)
